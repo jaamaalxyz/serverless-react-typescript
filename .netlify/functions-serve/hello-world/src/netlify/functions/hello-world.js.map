@@ -1,8 +1,0 @@
-{
-  "version": 3,
-  "sources": ["netlify/functions/hello-world.ts"],
-  "sourceRoot": "C:/Users/jamal/AppData/Local/Temp/tmp-17692-zCuiKt6h6srY",
-  "sourcesContent": ["import { Handler } from \"@netlify/functions\";\r\n\r\nexport const handler: Handler = async () => {\r\n  return {\r\n    statusCode: 200,\r\n    body: \"Hello, TypeScript! This project includes Vite and Netlify Functions!\",\r\n  };\r\n};\r\n"],
-  "mappings": ";;;;;;;;;AAAA;AAAA;AAAA;AAEO,IAAM,UAAmB,YAAY;AAC1C,SAAO;AAAA,IACL,YAAY;AAAA,IACZ,MAAM;AAAA;AAAA;",
-  "names": []
-}
