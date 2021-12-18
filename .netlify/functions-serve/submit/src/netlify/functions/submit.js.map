@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["netlify/functions/submit.ts"],
+  "sourceRoot": "C:/Users/jamal/AppData/Local/Temp/tmp-17692-GX2Fyfc7zpYn",
+  "sourcesContent": ["import { Handler } from \"@netlify/functions\";\r\n\r\nexport const handler: Handler = async (event) => {\r\n  const { name, favoriteColor } = JSON.parse(event.body);\r\n\r\n  console.log({ name, favoriteColor });\r\n\r\n  return {\r\n    statusCode: 200,\r\n    body: JSON.stringify({\r\n      name,\r\n      favoriteColor,\r\n      message: `My name is ${name} and my favorite color is ${favoriteColor}`,\r\n    }),\r\n  };\r\n};\r\n"],
+  "mappings": ";;;;;;;;;AAAA;AAAA;AAAA;AAEO,IAAM,UAAmB,OAAO,UAAU;AAC/C,QAAM,EAAE,MAAM,kBAAkB,KAAK,MAAM,MAAM;AAEjD,UAAQ,IAAI,EAAE,MAAM;AAEpB,SAAO;AAAA,IACL,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU;AAAA,MACnB;AAAA,MACA;AAAA,MACA,SAAS,cAAc,iCAAiC;AAAA;AAAA;AAAA;",
+  "names": []
+}
